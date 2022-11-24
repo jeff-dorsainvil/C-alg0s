@@ -10,6 +10,12 @@ typedef struct {
     struct Node *next;
 } Node;
 
+typedef struct {
+    Node *head;
+    unsigned int size;
+    
+} linked_list;
+
 int main (){
 
     return 0;
